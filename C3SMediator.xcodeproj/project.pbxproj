@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1DCB521B23322ACE00373788 /* ModuleBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCB521823322ACE00373788 /* ModuleBundle.m */; };
-		1DCB521C23322ACE00373788 /* ModuleExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCB521923322ACE00373788 /* ModuleExceptionHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +28,6 @@
 		1DCB521623322A2A00373788 /* HomeModuleService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModuleService.h; sourceTree = "<group>"; };
 		1DCB521723322ACE00373788 /* ModuleBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleBundle.h; sourceTree = "<group>"; };
 		1DCB521823322ACE00373788 /* ModuleBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleBundle.m; sourceTree = "<group>"; };
-		1DCB521923322ACE00373788 /* ModuleExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleExceptionHandler.m; sourceTree = "<group>"; };
-		1DCB521A23322ACE00373788 /* ModuleExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleExceptionHandler.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +71,6 @@
 			children = (
 				1DCB521723322ACE00373788 /* ModuleBundle.h */,
 				1DCB521823322ACE00373788 /* ModuleBundle.m */,
-				1DCB521A23322ACE00373788 /* ModuleExceptionHandler.h */,
-				1DCB521923322ACE00373788 /* ModuleExceptionHandler.m */,
 			);
 			path = ModuleHelper;
 			sourceTree = "<group>";
@@ -146,7 +141,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DCB521B23322ACE00373788 /* ModuleBundle.m in Sources */,
-				1DCB521C23322ACE00373788 /* ModuleExceptionHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

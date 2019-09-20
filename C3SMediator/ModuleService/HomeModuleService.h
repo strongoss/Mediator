@@ -18,7 +18,6 @@
  小于1.0的版本（如0.6），视为未稳定版本，不做上述限制。
  */
 
-#import "BifrostHeader.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
