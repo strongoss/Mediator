@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1DCB521B23322ACE00373788 /* ModuleBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCB521823322ACE00373788 /* ModuleBundle.m */; };
 		1DCB521C23322ACE00373788 /* ModuleExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCB521923322ACE00373788 /* ModuleExceptionHandler.m */; };
+		978EEF9D005CD01405C74837 /* libPods-C3SMediator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A200C5CA93F86F51DE22EA1 /* libPods-C3SMediator.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,9 @@
 		1DCB521823322ACE00373788 /* ModuleBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleBundle.m; sourceTree = "<group>"; };
 		1DCB521923322ACE00373788 /* ModuleExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleExceptionHandler.m; sourceTree = "<group>"; };
 		1DCB521A23322ACE00373788 /* ModuleExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleExceptionHandler.h; sourceTree = "<group>"; };
+		788DE85A385CF6E67177ADA7 /* Pods-C3SMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-C3SMediator.debug.xcconfig"; path = "Target Support Files/Pods-C3SMediator/Pods-C3SMediator.debug.xcconfig"; sourceTree = "<group>"; };
+		7A200C5CA93F86F51DE22EA1 /* libPods-C3SMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-C3SMediator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD35B7997BB02ED92771475D /* Pods-C3SMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-C3SMediator.release.xcconfig"; path = "Target Support Files/Pods-C3SMediator/Pods-C3SMediator.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				978EEF9D005CD01405C74837 /* libPods-C3SMediator.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +54,8 @@
 			children = (
 				1DCB52092332284600373788 /* C3SMediator */,
 				1DCB52082332284600373788 /* Products */,
+				FDDC13961438154B3987C65A /* Pods */,
+				A8241991C6D52315E534F4B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +96,24 @@
 			path = ModuleService;
 			sourceTree = "<group>";
 		};
+		A8241991C6D52315E534F4B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A200C5CA93F86F51DE22EA1 /* libPods-C3SMediator.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDDC13961438154B3987C65A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				788DE85A385CF6E67177ADA7 /* Pods-C3SMediator.debug.xcconfig */,
+				BD35B7997BB02ED92771475D /* Pods-C3SMediator.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -96,6 +121,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DCB52102332284600373788 /* Build configuration list for PBXNativeTarget "C3SMediator" */;
 			buildPhases = (
+				572BD885C2B3832C76310BFD /* [CP] Check Pods Manifest.lock */,
 				1DCB52032332284600373788 /* Sources */,
 				1DCB52042332284600373788 /* Frameworks */,
 				1DCB52052332284600373788 /* CopyFiles */,
@@ -139,6 +165,31 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		572BD885C2B3832C76310BFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-C3SMediator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1DCB52032332284600373788 /* Sources */ = {
@@ -267,6 +318,7 @@
 		};
 		1DCB52112332284600373788 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 788DE85A385CF6E67177ADA7 /* Pods-C3SMediator.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				OTHER_LDFLAGS = "-ObjC";
@@ -278,6 +330,7 @@
 		};
 		1DCB52122332284600373788 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD35B7997BB02ED92771475D /* Pods-C3SMediator.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				OTHER_LDFLAGS = "-ObjC";

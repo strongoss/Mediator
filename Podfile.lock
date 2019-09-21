@@ -1,0 +1,16 @@
+PODS:
+  - EVSRouter (0.0.1)
+
+DEPENDENCIES:
+  - EVSRouter
+
+SPEC REPOS:
+  https://gitee.com/ioslearn/MdiatorSpec.git:
+    - EVSRouter
+
+SPEC CHECKSUMS:
+  EVSRouter: e35affe062b56af34ae725af95e08494b063d20a
+
+PODFILE CHECKSUM: 4995b64cfc645fd23a7d3ec3b15873e2e7571f7b
+
+COCOAPODS: 1.6.2

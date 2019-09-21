@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11F67788112B1AB134D1074525DAD059 /* EVSProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A0C7DAF5440A36D336E04D7E56C5CE /* EVSProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		18EA6F625C91C2635EE2EE21372931C6 /* Pods-C3SMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D921DE8625C484925E2C5E3F3BA451 /* Pods-C3SMediator-dummy.m */; };
+		5D2B69AC3B6D0D1F7293D90A6BC45A9F /* EVSRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C62F19A8C3CB80F95FB37CB84342403 /* EVSRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		76FB4C0AF82FD0FFBDD62F518B2A87B8 /* EVSRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B641B2A1A02E933A9F0517FFF86264 /* EVSRouter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		87FE3EB6693E77FD58CAA85F0361DADA /* EVSHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C3A3F1C4C5FF9B5214CB3A5B59CC81 /* EVSHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		882858B5189862A718E530ED77BD434A /* EVSRouter+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = F76CF8C48A74D69FBFDFDECA1823C9BE /* EVSRouter+Router.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		914DCBA487021BFAC35AE53D4AB7F8B4 /* EVSRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D616337131C2932362EA1A10223826E1 /* EVSRouter-dummy.m */; };
+		B80D8C6C5B16D67E4F5D3FB8D93D7E5D /* EVSRouter+Router.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BCE10888EAB7E3FB8128C2216294946 /* EVSRouter+Router.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35C86E5F4839A190933D70016EB73573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8593B6F569C36CAAC300CB50ECA3B9D6;
+			remoteInfo = EVSRouter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03474FD0D155766EC2CDEF675D7106E9 /* Pods-C3SMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-C3SMediator.debug.xcconfig"; sourceTree = "<group>"; };
+		10DF9B60A4F4A58C56CB805FD33A34CC /* libEVSRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libEVSRouter.a; path = libEVSRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C62F19A8C3CB80F95FB37CB84342403 /* EVSRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EVSRouter.h; path = EVSRouter/EVSRouter.h; sourceTree = "<group>"; };
+		2DBE742AC1F1217F67AE64F37D31E3CE /* Pods-C3SMediator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-C3SMediator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4378C588D278F72172713DCC54B658C2 /* Pods-C3SMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-C3SMediator.release.xcconfig"; sourceTree = "<group>"; };
+		46A0C7DAF5440A36D336E04D7E56C5CE /* EVSProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EVSProtocol.h; path = EVSRouter/EVSProtocol.h; sourceTree = "<group>"; };
+		4FC6BBC69D30078E0285EAD49D3C1D05 /* EVSRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EVSRouter.xcconfig; sourceTree = "<group>"; };
+		7774EDDFB8E71CB3CD76B4CE6DA1F582 /* libPods-C3SMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-C3SMediator.a"; path = "libPods-C3SMediator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B641B2A1A02E933A9F0517FFF86264 /* EVSRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EVSRouter.m; path = EVSRouter/EVSRouter.m; sourceTree = "<group>"; };
+		8BCE10888EAB7E3FB8128C2216294946 /* EVSRouter+Router.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EVSRouter+Router.h"; path = "EVSRouter/EVSRouter+Router.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2D921DE8625C484925E2C5E3F3BA451 /* Pods-C3SMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-C3SMediator-dummy.m"; sourceTree = "<group>"; };
+		C0C3A3F1C4C5FF9B5214CB3A5B59CC81 /* EVSHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EVSHeader.h; path = EVSRouter/EVSHeader.h; sourceTree = "<group>"; };
+		C6B721F2997E71DB219F93BF769F7A69 /* EVSRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EVSRouter-prefix.pch"; sourceTree = "<group>"; };
+		D616337131C2932362EA1A10223826E1 /* EVSRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EVSRouter-dummy.m"; sourceTree = "<group>"; };
+		E8D9B4BEE00BBC9B0F0FADE850492778 /* Pods-C3SMediator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-C3SMediator-acknowledgements.plist"; sourceTree = "<group>"; };
+		F76CF8C48A74D69FBFDFDECA1823C9BE /* EVSRouter+Router.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EVSRouter+Router.m"; path = "EVSRouter/EVSRouter+Router.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A06F933F70B2B38FE1B4C441AEB54C9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A430283397394E0C9EB6777E5A8B7D2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42F43771914A6A661037B8AAB2F5D819 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEBAEA21EBC5821A23A0C0E058A8EADA /* EVSRouter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4BA956B465097C9BDE2C7AE0224BBE76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10DF9B60A4F4A58C56CB805FD33A34CC /* libEVSRouter.a */,
+				7774EDDFB8E71CB3CD76B4CE6DA1F582 /* libPods-C3SMediator.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EF125F205BC5827CA8F9875F5AD1B49 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E02041E3C03FF77D526A7748449E1FC /* Pods-C3SMediator */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6E02041E3C03FF77D526A7748449E1FC /* Pods-C3SMediator */ = {
+			isa = PBXGroup;
+			children = (
+				2DBE742AC1F1217F67AE64F37D31E3CE /* Pods-C3SMediator-acknowledgements.markdown */,
+				E8D9B4BEE00BBC9B0F0FADE850492778 /* Pods-C3SMediator-acknowledgements.plist */,
+				A2D921DE8625C484925E2C5E3F3BA451 /* Pods-C3SMediator-dummy.m */,
+				03474FD0D155766EC2CDEF675D7106E9 /* Pods-C3SMediator.debug.xcconfig */,
+				4378C588D278F72172713DCC54B658C2 /* Pods-C3SMediator.release.xcconfig */,
+			);
+			name = "Pods-C3SMediator";
+			path = "Target Support Files/Pods-C3SMediator";
+			sourceTree = "<group>";
+		};
+		837DD056623CDA350C5A97F2744A0C53 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FC6BBC69D30078E0285EAD49D3C1D05 /* EVSRouter.xcconfig */,
+				D616337131C2932362EA1A10223826E1 /* EVSRouter-dummy.m */,
+				C6B721F2997E71DB219F93BF769F7A69 /* EVSRouter-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EVSRouter";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				42F43771914A6A661037B8AAB2F5D819 /* Pods */,
+				4BA956B465097C9BDE2C7AE0224BBE76 /* Products */,
+				4EF125F205BC5827CA8F9875F5AD1B49 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEBAEA21EBC5821A23A0C0E058A8EADA /* EVSRouter */ = {
+			isa = PBXGroup;
+			children = (
+				C0C3A3F1C4C5FF9B5214CB3A5B59CC81 /* EVSHeader.h */,
+				46A0C7DAF5440A36D336E04D7E56C5CE /* EVSProtocol.h */,
+				1C62F19A8C3CB80F95FB37CB84342403 /* EVSRouter.h */,
+				84B641B2A1A02E933A9F0517FFF86264 /* EVSRouter.m */,
+				8BCE10888EAB7E3FB8128C2216294946 /* EVSRouter+Router.h */,
+				F76CF8C48A74D69FBFDFDECA1823C9BE /* EVSRouter+Router.m */,
+				837DD056623CDA350C5A97F2744A0C53 /* Support Files */,
+			);
+			name = EVSRouter;
+			path = EVSRouter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1001D81EE06FF5073199EE0A0EF59C9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FE3EB6693E77FD58CAA85F0361DADA /* EVSHeader.h in Headers */,
+				11F67788112B1AB134D1074525DAD059 /* EVSProtocol.h in Headers */,
+				B80D8C6C5B16D67E4F5D3FB8D93D7E5D /* EVSRouter+Router.h in Headers */,
+				5D2B69AC3B6D0D1F7293D90A6BC45A9F /* EVSRouter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76E0AAA7254F90270825855C1B19992 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8593B6F569C36CAAC300CB50ECA3B9D6 /* EVSRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDCC6E5585881D720F240977F926B9A4 /* Build configuration list for PBXNativeTarget "EVSRouter" */;
+			buildPhases = (
+				1001D81EE06FF5073199EE0A0EF59C9F /* Headers */,
+				91B2CB7F89549A765A2F81FB85949401 /* Sources */,
+				A06F933F70B2B38FE1B4C441AEB54C9E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EVSRouter;
+			productName = EVSRouter;
+			productReference = 10DF9B60A4F4A58C56CB805FD33A34CC /* libEVSRouter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CAF00A297F1531CD426DB109D49FDB56 /* Pods-C3SMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FE702FA3AB155D350639BDF6C67F400 /* Build configuration list for PBXNativeTarget "Pods-C3SMediator" */;
+			buildPhases = (
+				C76E0AAA7254F90270825855C1B19992 /* Headers */,
+				E75611F29F175C326741E1745A9C71D4 /* Sources */,
+				A430283397394E0C9EB6777E5A8B7D2F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B64780C2F06D740EE9140B38DA096F2B /* PBXTargetDependency */,
+			);
+			name = "Pods-C3SMediator";
+			productName = "Pods-C3SMediator";
+			productReference = 7774EDDFB8E71CB3CD76B4CE6DA1F582 /* libPods-C3SMediator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4BA956B465097C9BDE2C7AE0224BBE76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8593B6F569C36CAAC300CB50ECA3B9D6 /* EVSRouter */,
+				CAF00A297F1531CD426DB109D49FDB56 /* Pods-C3SMediator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91B2CB7F89549A765A2F81FB85949401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882858B5189862A718E530ED77BD434A /* EVSRouter+Router.m in Sources */,
+				914DCBA487021BFAC35AE53D4AB7F8B4 /* EVSRouter-dummy.m in Sources */,
+				76FB4C0AF82FD0FFBDD62F518B2A87B8 /* EVSRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75611F29F175C326741E1745A9C71D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EA6F625C91C2635EE2EE21372931C6 /* Pods-C3SMediator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B64780C2F06D740EE9140B38DA096F2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EVSRouter;
+			target = 8593B6F569C36CAAC300CB50ECA3B9D6 /* EVSRouter */;
+			targetProxy = 35C86E5F4839A190933D70016EB73573 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10A099A0BE934CFCD4F1A011602AA91D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FC6BBC69D30078E0285EAD49D3C1D05 /* EVSRouter.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EVSRouter/EVSRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EVSRouter;
+				PRODUCT_NAME = EVSRouter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37153694B24908B68513201A08C8D0D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03474FD0D155766EC2CDEF675D7106E9 /* Pods-C3SMediator.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8454F29A33AB8471D9A876E1D68B8864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4378C588D278F72172713DCC54B658C2 /* Pods-C3SMediator.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA4ECC4B4384994C0C372461430B717C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FC6BBC69D30078E0285EAD49D3C1D05 /* EVSRouter.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EVSRouter/EVSRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EVSRouter;
+				PRODUCT_NAME = EVSRouter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FE702FA3AB155D350639BDF6C67F400 /* Build configuration list for PBXNativeTarget "Pods-C3SMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37153694B24908B68513201A08C8D0D1 /* Debug */,
+				8454F29A33AB8471D9A876E1D68B8864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDCC6E5585881D720F240977F926B9A4 /* Build configuration list for PBXNativeTarget "EVSRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4ECC4B4384994C0C372461430B717C /* Debug */,
+				10A099A0BE934CFCD4F1A011602AA91D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

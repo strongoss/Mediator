@@ -7,12 +7,12 @@
 //
 
 #import "ModuleExceptionHandler.h"
-#import "BifrostHeader.h"
+#import "EVSHeader.h"
 
 @implementation ModuleExceptionHandler
 
 + (void)load {
-    [Bifrost setExceptionHandler:^id _Nullable(NSException * _Nonnull exception) {
+    [EVSRouter setExceptionHandler:^id _Nullable(NSException * _Nonnull exception) {
         //record the error
         NSLog(@"[Module] Exception:%@", exception);
         //handle excpeitons
